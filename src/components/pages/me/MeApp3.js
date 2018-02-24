@@ -33,7 +33,7 @@ export default class MeApp3 extends Component {
           <TouchableOpacity
               onPress={() => Actions.pop()}
           >
-            <Text>点击返回上级页面</Text>
+            <Text>点击返回上一级页面</Text>
           </TouchableOpacity>
         </View>
     );

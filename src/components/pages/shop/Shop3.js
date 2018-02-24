@@ -31,9 +31,9 @@ export default class Shop3App extends Component {
             第一个页面
           </Text>
           <TouchableOpacity
-              onPress={() => Actions.shopApp2()}
+              onPress={() => Actions.pop()}
           >
-            <Text>点击进入到第二个页面</Text>
+            <Text>点击返回上一级页面</Text>
           </TouchableOpacity>
         </View>
     );

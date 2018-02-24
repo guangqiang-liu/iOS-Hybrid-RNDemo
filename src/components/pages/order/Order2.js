@@ -33,7 +33,7 @@ export default class Order2App extends Component {
           <TouchableOpacity
               onPress={() => Actions.orderApp3()}
           >
-            <Text>点击进入到第二个页面</Text>
+            <Text>点击进入到第三个页面</Text>
           </TouchableOpacity>
         </View>
     );
