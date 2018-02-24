@@ -8,8 +8,14 @@ import {
 } from 'react-native'
 
 import {Actions} from 'react-native-router-flux'
-
+import store from '../../../store'
 export default class MeApp1 extends Component {
+
+
+  pushVC() {
+    let newState = store.getState()
+    Actions.meApp2()
+  }
 
   render() {
     return (
@@ -28,7 +34,7 @@ export default class MeApp1 extends Component {
             第一个页面
           </Text>
           <TouchableOpacity
-              onPress={() => Actions.meApp2()}
+              onPress={() => this.pushVC()}
           >
             <Text>点击进入到第二个页面</Text>
           </TouchableOpacity>

@@ -1,11 +1,18 @@
-import { AppRegistry } from 'react-native'
 import React, {Component} from 'react'
+import { AppRegistry } from 'react-native'
+// 必须为根组件
+import App from './src/components/pages/me'
+import {moduleName} from './src/constants'
 
-import MeApp from './src/components/pages/me'
-AppRegistry.registerComponent('MeApp', () => MeApp)
+class RootComponent extends Component {
+  render() {
+    const {componentName, args} = this.props
+    moduleName.MODULE_NAME = componentName
+    moduleName.ARGS = args
+    return (
+        <App/>
+    )
+  }
+}
 
-import OrderApp from './src/components/pages/order'
-AppRegistry.registerComponent('OrderApp', () => OrderApp)
-
-import ShopApp from './src/components/pages/shop'
-AppRegistry.registerComponent('ShopApp', () => ShopApp)
+AppRegistry.registerComponent('iOSRN', () => RootComponent)

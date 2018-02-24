@@ -23,10 +23,11 @@
     
     NSString * strUrl = @"http://localhost:8081/index.ios.bundle?platform=ios&dev=true";
     NSURL * jsCodeLocation = [NSURL URLWithString:strUrl];
-    
+    NSDictionary *params = @{@"componentName":@"ShopApp1", @"args":@{@"params":@"这是原生传递的参数"}};
+
     RCTRootView * rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                         moduleName:@"ShopApp"
-                                                  initialProperties:nil
+                                                         moduleName:@"iOSRN"
+                                                  initialProperties:params
                                                       launchOptions:nil];
     self.view = rootView;
 }
