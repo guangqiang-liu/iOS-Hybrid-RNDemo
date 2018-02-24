@@ -21,6 +21,7 @@ target 'iOSRN' do
     'RCTCameraRoll',
     'RCTPushNotification',
     'RCTLinkingIOS',
+    
     # 在这里继续添加你所需要的模块
     ]
     
