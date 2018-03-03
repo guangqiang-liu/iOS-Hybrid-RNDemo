@@ -21,8 +21,14 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    NSURL * jsCodeLocation;
+#ifdef DEBUG
     NSString * strUrl = @"http://localhost:8081/index.ios.bundle?platform=ios&dev=true";
-    NSURL * jsCodeLocation = [NSURL URLWithString:strUrl];
+    jsCodeLocation = [NSURL URLWithString:strUrl];
+#else
+    // do sth
+    jsCodeLocation = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"index.ios.jsbundle" ofType:nil]];
+#endif
     NSDictionary *params = @{@"componentName":@"OrderApp1", @"args":@{@"params":@"这是原生传递的参数"}};
 
     RCTRootView * rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation

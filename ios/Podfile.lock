@@ -1,4 +1,6 @@
 PODS:
+  - React (0.50.3):
+    - React/Core (= 0.50.3)
   - React/ART (0.50.3):
     - React/Core
   - React/BatchedBridge (0.50.3):
@@ -43,6 +45,8 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - RNVectorIcons (4.3.0):
+    - React
   - yoga (0.50.3.React)
 
 DEPENDENCIES:
@@ -63,18 +67,22 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
   React:
     :path: ../node_modules/react-native
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
   yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
   React: 541ba768b9855e10cdc76f55427a5cd0653ca806
+  RNVectorIcons: c0dbfbf6068fefa240c37b0f71bd03b45dddac44
   yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
 
-PODFILE CHECKSUM: 6c094cd6a2dc2f5ccdcc9030d628a54f76716a86
+PODFILE CHECKSUM: e7d00450ea668fb5c8a9a14ffdd156c26a7aec41
 
 COCOAPODS: 1.4.0

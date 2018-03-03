@@ -4,7 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
-  TouchableOpacity
+  TouchableOpacity,
+  Image
 } from 'react-native'
 
 import {Actions} from 'react-native-router-flux'

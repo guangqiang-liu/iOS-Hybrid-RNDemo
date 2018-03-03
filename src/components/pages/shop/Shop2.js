@@ -1,60 +1,54 @@
 /**
  * Created by guangqiang on 2018/2/23.
  */
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity
-} from 'react-native'
+import React, {Component} from 'react'
+import {View, ListView, Image, Text, StyleSheet, NativeModules} from 'react-native'
+import {commonStyle} from '../../../constants/GlobalStyles'
+import ShowTimeCell from './ListCell'
 
-import {Actions} from 'react-native-router-flux'
+let RNModules = NativeModules.RTShopModules
 
-export default class Shop2App extends Component {
+export default class ShowTimeList extends Component {
+
+  constructor(props) {
+    super(props)
+    this.renderRow = this.renderRow.bind(this)
+    this.state = {
+      dataSource: new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
+    }
+  }
+
+  componentDidMount() {
+    RNModules.RNChangeTitle('店铺模块二')
+    this.props.getMovieList()
+  }
+
+  componentWillUnmount() {
+    RNModules.RNChangeTitle('店铺模块一')
+  }
+
+  renderRow(rowData, sectionId, rowId) {
+    return (
+        <ShowTimeCell key={rowId} rowData={rowData}/>
+    )
+  }
 
   render() {
+    let dataSource = this.state.dataSource.cloneWithRows(this.props.shopList)
     return (
-        <View style={styles.container}>
-          <Text style={styles.welcome}>
-            Welcome to Shop2App!
-          </Text>
-          <Text style={styles.instructions}>
-            To get started, edit index.ios.js
-          </Text>
-          <Text style={styles.instructions}>
-            Press Cmd+R to reload,{'\n'}
-            Cmd+D or shake for dev menu
-          </Text>
-          <Text style={styles.instructions}>
-            第一个页面
-          </Text>
-          <TouchableOpacity
-              onPress={() => Actions.shopApp3()}
-          >
-            <Text>点击进入到第二个页面</Text>
-          </TouchableOpacity>
-        </View>
-    );
+        <ListView
+            style={styles.content}
+            renderRow={this.renderRow}
+            enableEmptySections
+            dataSource={dataSource}
+        />
+    )
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
+  content: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    backgroundColor: commonStyle.white
+  }
 })

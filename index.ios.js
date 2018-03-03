@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import { AppRegistry } from 'react-native'
-// 必须为根组件
-import App from './src/components/pages/me'
+import App from './src/containers/App'
 import {moduleName} from './src/constants'
 
 class RootComponent extends Component {

@@ -7,12 +7,23 @@ import {
   StyleSheet,
   Text,
   View,
-  TouchableOpacity
+  TouchableOpacity,
+  NativeModules
 } from 'react-native'
 
 import {Actions} from 'react-native-router-flux'
 
+let RNModules = NativeModules.RTShopModules
+
 export default class Shop3App extends Component {
+
+  componentDidMount() {
+    RNModules.RNChangeTitle('店铺模块三')
+  }
+
+  componentWillUnmount() {
+    RNModules.RNChangeTitle('店铺模块二')
+  }
 
   render() {
     return (
