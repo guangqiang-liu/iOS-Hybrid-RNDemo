@@ -8,6 +8,7 @@
 
 #import "RNMeModuleVC.h"
 #import "RCTRootView.h"
+#import <CodePush/CodePush.h>
 
 @interface RNMeModuleVC ()
 
@@ -26,8 +27,7 @@
     NSString * strUrl = @"http://localhost:8081/index.ios.bundle?platform=ios&dev=true";
     jsCodeLocation = [NSURL URLWithString:strUrl];
 #else
-    // do sth
-    jsCodeLocation = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"index.ios.jsbundle" ofType:nil]];
+    jsCodeLocation = [CodePush bundleURL];
 #endif
     
     NSDictionary *params = @{@"componentName":@"MeApp1", @"args":@{@"params":@"这是原生传递的参数"}};

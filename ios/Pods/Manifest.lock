@@ -1,4 +1,18 @@
 PODS:
+  - CodePush (5.2.2):
+    - CodePush/Base64 (= 5.2.2)
+    - CodePush/Core (= 5.2.2)
+    - CodePush/JWT (= 5.2.2)
+    - CodePush/SSZipArchive (= 5.2.2)
+    - React
+  - CodePush/Base64 (5.2.2):
+    - React
+  - CodePush/Core (5.2.2):
+    - React
+  - CodePush/JWT (5.2.2):
+    - React
+  - CodePush/SSZipArchive (5.2.2):
+    - React
   - React (0.50.3):
     - React/Core (= 0.50.3)
   - React/ART (0.50.3):
@@ -50,6 +64,7 @@ PODS:
   - yoga (0.50.3.React)
 
 DEPENDENCIES:
+  - CodePush (from `../node_modules/react-native-code-push`)
   - React/ART (from `../node_modules/react-native`)
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
@@ -71,6 +86,8 @@ DEPENDENCIES:
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
+  CodePush:
+    :path: ../node_modules/react-native-code-push
   React:
     :path: ../node_modules/react-native
   RNVectorIcons:
@@ -79,10 +96,11 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
+  CodePush: af67b07310e4037ecd5c38f03c7a51c6350240b5
   React: 541ba768b9855e10cdc76f55427a5cd0653ca806
   RNVectorIcons: c0dbfbf6068fefa240c37b0f71bd03b45dddac44
   yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
 
-PODFILE CHECKSUM: e7d00450ea668fb5c8a9a14ffdd156c26a7aec41
+PODFILE CHECKSUM: fb344dc4d4a07cd5702de82206e6f9e4046e79d2
 
 COCOAPODS: 1.4.0

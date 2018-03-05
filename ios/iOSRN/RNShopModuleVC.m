@@ -8,6 +8,7 @@
 
 #import "RNShopModuleVC.h"
 #import "RCTRootView.h"
+#import <CodePush/CodePush.h>
 
 @interface RNShopModuleVC ()
 
@@ -26,9 +27,9 @@
     NSString * strUrl = @"http://localhost:8081/index.ios.bundle?platform=ios&dev=true";
     jsCodeLocation = [NSURL URLWithString:strUrl];
 #else
-    // do sth
-    jsCodeLocation = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"index.ios.jsbundle" ofType:nil]];
+    jsCodeLocation = [CodePush bundleURL];
 #endif
+    
     NSDictionary *params = @{@"componentName":@"ShopApp1", @"args":@{@"params":@"这是原生传递的参数"}};
 
     RCTRootView * rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation

@@ -28,6 +28,8 @@ target 'iOSRN' do
     # 如果你的RN版本 >= 0.42.0，请加入下面这行
     pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+    pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+    pod 'CodePush', :path => '../node_modules/react-native-code-push'
 
 end

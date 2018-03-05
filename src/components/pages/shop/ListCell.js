@@ -46,6 +46,7 @@ export default class ShowTimeCell extends Component {
               }
             </View>
           </View>
+          <Text>这是热更新内容2！</Text>
         </TouchableOpacity>
     )
   }
