@@ -7,7 +7,7 @@
 //
 
 #import "RNOrderModuleVC.h"
-#import "RCTRootView.h"
+#import <React/RCTRootView.h>
 #import <CodePush/CodePush.h>
 
 @interface RNOrderModuleVC ()

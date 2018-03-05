@@ -10,7 +10,7 @@
 		48B59C45538F4B13B3BB0CAF /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C89F986C6CF6402B8FBF34EC /* Octicons.ttf */; };
 		4EB264B2DE944F658E38C8A4 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC86472355C64A45BF093CBF /* Foundation.ttf */; };
 		59EDDD6B0F614306ACEDE193 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04683BA785554FE08EB49806 /* EvilIcons.ttf */; };
-		8E09A5557D78F3752B01F121 /* libPods-iOSRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 774C6A519D68551A98781142 /* libPods-iOSRN.a */; };
+		5BD35C6874E790DAEA1D6F2B /* Pods_iOSRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5608F09A505FBA77715A76 /* Pods_iOSRN.framework */; };
 		9C019471203EB0AE00BBE03A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019470203EB0AE00BBE03A /* AppDelegate.m */; };
 		9C019474203EB0AE00BBE03A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019473203EB0AE00BBE03A /* ViewController.m */; };
 		9C019477203EB0AE00BBE03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C019475203EB0AE00BBE03A /* Main.storyboard */; };
@@ -40,7 +40,6 @@
 /* Begin PBXFileReference section */
 		04683BA785554FE08EB49806 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		2BCF276B44674BC19690D08B /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		774C6A519D68551A98781142 /* libPods-iOSRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA2485AA3DD432185637BA8 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		907CCA246D7B4F5C9C52DD84 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		9248B88069AA47CCBD1C06FB /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		C89F986C6CF6402B8FBF34EC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		CBA4126BC4644752B318CC59 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		D0A6E583A5A9864A1E09FFB5 /* Pods-iOSRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5608F09A505FBA77715A76 /* Pods_iOSRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E09A5557D78F3752B01F121 /* libPods-iOSRN.a in Frameworks */,
+				5BD35C6874E790DAEA1D6F2B /* Pods_iOSRN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 		BC44C9AFFB819B40EEE0D41F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				774C6A519D68551A98781142 /* libPods-iOSRN.a */,
+				EC5608F09A505FBA77715A76 /* Pods_iOSRN.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -358,9 +358,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CodePush/CodePush.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodePush.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -572,6 +581,7 @@
 				CODEPUSH_KEY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/Libraries/**";
 				INFOPLIST_FILE = iOSRN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -593,6 +603,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/Libraries/**";
 				INFOPLIST_FILE = iOSRN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -664,6 +675,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
 				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/Libraries/**";
 				INFOPLIST_FILE = iOSRN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

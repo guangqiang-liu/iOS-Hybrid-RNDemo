@@ -7,7 +7,7 @@
 //
 
 #import "RCTShopModules.h"
-#import "RCTBridge.h"
+#import <React/RCTBridge.h>
 @implementation RCTShopModules
 
 RCT_EXPORT_MODULE(RTShopModules)

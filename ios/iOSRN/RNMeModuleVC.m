@@ -7,7 +7,7 @@
 //
 
 #import "RNMeModuleVC.h"
-#import "RCTRootView.h"
+#import <React/RCTRootView.h>
 #import <CodePush/CodePush.h>
 
 @interface RNMeModuleVC ()

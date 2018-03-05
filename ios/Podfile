@@ -1,4 +1,5 @@
 platform :ios, '9.0'
+use_frameworks!
 
 target 'iOSRN' do 
 
@@ -31,5 +32,5 @@ target 'iOSRN' do
     pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
     pod 'CodePush', :path => '../node_modules/react-native-code-push'
-
+    
 end
