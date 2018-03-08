@@ -49,6 +49,7 @@ export default class ShowTimeList extends Component {
 const styles = StyleSheet.create({
   content: {
     flex: 1,
-    backgroundColor: commonStyle.white
+    backgroundColor: commonStyle.white,
+    marginTop: 64
   }
 })

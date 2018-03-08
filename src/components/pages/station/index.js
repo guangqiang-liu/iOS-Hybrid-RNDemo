@@ -2,7 +2,7 @@
  * Created by guangqiang on 2018/2/24.
  */
 import React, { Component } from 'react'
-import {Text} from 'react-native'
+import {Text, Platform} from 'react-native'
 import MeApp1 from '../me/MeApp'
 import OrderApp1 from '../order/Order1'
 import ShopApp1 from '../shop/Shop1'

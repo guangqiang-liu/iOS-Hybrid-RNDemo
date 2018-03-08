@@ -9,7 +9,7 @@ import store from '../store/index'
 import type from '../constants/ActionType'
 import Action from '../actions/index'
 
-import Station from '../components/pages/placeholder'
+import Station from '../components/pages/station'
 import Loading from '../utils/loading/LoadingHud'
 
 import MeApp1 from '../components/pages/me/MeApp'
@@ -29,7 +29,7 @@ const scenes = Actions.create(
       <Modal key="modal" hideNavBar>
         <Lightbox key="lightbox" hideNavBar={true}>
 
-          <Stack key="init">
+          <Stack key="init" hideNavBar={true}>
 
             <Scene key='station' initial component={Station}/>
 

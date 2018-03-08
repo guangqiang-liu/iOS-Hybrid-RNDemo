@@ -17,17 +17,17 @@
 		9C019479203EB0AE00BBE03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C019478203EB0AE00BBE03A /* Assets.xcassets */; };
 		9C01947C203EB0AE00BBE03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C01947A203EB0AE00BBE03A /* LaunchScreen.storyboard */; };
 		9C01947F203EB0AE00BBE03A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01947E203EB0AE00BBE03A /* main.m */; };
+		9C0E71D1205192DC0004863D /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71C2205192DC0004863D /* main.jsbundle */; };
+		9C0E71D2205192DC0004863D /* menu_burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71C7205192DC0004863D /* menu_burger.png */; };
+		9C0E71D3205192DC0004863D /* back_chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71C8205192DC0004863D /* back_chevron.png */; };
+		9C0E71D4205192DC0004863D /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71CE205192DC0004863D /* back-icon@3x.png */; };
+		9C0E71D5205192DC0004863D /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71CF205192DC0004863D /* back-icon@2x.png */; };
+		9C0E71D6205192DC0004863D /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71D0205192DC0004863D /* back-icon.png */; };
 		9C99FA43203FDD0B00828FDD /* RNOrderModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FA42203FDD0B00828FDD /* RNOrderModuleVC.m */; };
 		9C99FA49203FECC300828FDD /* RNMeModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FA48203FECC300828FDD /* RNMeModuleVC.m */; };
 		9C99FA4C203FECD600828FDD /* RNShopModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FA4B203FECD600828FDD /* RNShopModuleVC.m */; };
 		9CFE8FC5204A85EE004E5AA7 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FC4204A85EE004E5AA7 /* iconfont.ttf */; };
 		9CFE8FC8204AA9C8004E5AA7 /* RCTShopModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE8FC7204AA9C8004E5AA7 /* RCTShopModules.m */; };
-		9CFE8FE9204B005A004E5AA7 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FDA204B005A004E5AA7 /* main.jsbundle */; };
-		9CFE8FEA204B005A004E5AA7 /* menu_burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FDF204B005A004E5AA7 /* menu_burger.png */; };
-		9CFE8FEB204B005A004E5AA7 /* back_chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FE0204B005A004E5AA7 /* back_chevron.png */; };
-		9CFE8FEC204B005A004E5AA7 /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FE6204B005A004E5AA7 /* back-icon@3x.png */; };
-		9CFE8FED204B005A004E5AA7 /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FE7204B005A004E5AA7 /* back-icon@2x.png */; };
-		9CFE8FEE204B005A004E5AA7 /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FE8204B005A004E5AA7 /* back-icon.png */; };
 		ADE76C6AA5104AD89CCD700F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BCF276B44674BC19690D08B /* Ionicons.ttf */; };
 		AE2F8697B1AA480EBF43E1EE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA2485AA3DD432185637BA8 /* Zocial.ttf */; };
 		D10A9293F7CD48CEBFAA1E3D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA4126BC4644752B318CC59 /* SimpleLineIcons.ttf */; };
@@ -53,6 +53,12 @@
 		9C01947B203EB0AE00BBE03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C01947D203EB0AE00BBE03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C01947E203EB0AE00BBE03A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C0E71C2205192DC0004863D /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		9C0E71C7205192DC0004863D /* menu_burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_burger.png; sourceTree = "<group>"; };
+		9C0E71C8205192DC0004863D /* back_chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_chevron.png; sourceTree = "<group>"; };
+		9C0E71CE205192DC0004863D /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
+		9C0E71CF205192DC0004863D /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
+		9C0E71D0205192DC0004863D /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
 		9C99FA41203FDD0B00828FDD /* RNOrderModuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNOrderModuleVC.h; sourceTree = "<group>"; };
 		9C99FA42203FDD0B00828FDD /* RNOrderModuleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNOrderModuleVC.m; sourceTree = "<group>"; };
 		9C99FA47203FECC300828FDD /* RNMeModuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMeModuleVC.h; sourceTree = "<group>"; };
@@ -63,12 +69,6 @@
 		9CFE8FC4204A85EE004E5AA7 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		9CFE8FC6204AA9C8004E5AA7 /* RCTShopModules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTShopModules.h; sourceTree = "<group>"; };
 		9CFE8FC7204AA9C8004E5AA7 /* RCTShopModules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTShopModules.m; sourceTree = "<group>"; };
-		9CFE8FDA204B005A004E5AA7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../../bundle/ios/main.jsbundle; sourceTree = "<group>"; };
-		9CFE8FDF204B005A004E5AA7 /* menu_burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_burger.png; sourceTree = "<group>"; };
-		9CFE8FE0204B005A004E5AA7 /* back_chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_chevron.png; sourceTree = "<group>"; };
-		9CFE8FE6204B005A004E5AA7 /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
-		9CFE8FE7204B005A004E5AA7 /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
-		9CFE8FE8204B005A004E5AA7 /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
 		A52EEAE77B0ECFD89E577E83 /* Pods-iOSRN.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN.staging.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN.staging.xcconfig"; sourceTree = "<group>"; };
 		AC86472355C64A45BF093CBF /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		B2F70880366347F7AD594974 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -156,10 +156,86 @@
 		9C0288B7204509D6009D2434 /* jsbundle */ = {
 			isa = PBXGroup;
 			children = (
-				9CFE8FDB204B005A004E5AA7 /* assets */,
-				9CFE8FDA204B005A004E5AA7 /* main.jsbundle */,
+				9C0E71C3205192DC0004863D /* assets */,
+				9C0E71C2205192DC0004863D /* main.jsbundle */,
 			);
 			path = jsbundle;
+			sourceTree = "<group>";
+		};
+		9C0E71C3205192DC0004863D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C4205192DC0004863D /* node_modules */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9C0E71C4205192DC0004863D /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C5205192DC0004863D /* react-native-router-flux */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		9C0E71C5205192DC0004863D /* react-native-router-flux */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C6205192DC0004863D /* images */,
+				9C0E71C9205192DC0004863D /* node_modules */,
+			);
+			path = "react-native-router-flux";
+			sourceTree = "<group>";
+		};
+		9C0E71C6205192DC0004863D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C7205192DC0004863D /* menu_burger.png */,
+				9C0E71C8205192DC0004863D /* back_chevron.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9C0E71C9205192DC0004863D /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CA205192DC0004863D /* react-navigation */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		9C0E71CA205192DC0004863D /* react-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CB205192DC0004863D /* src */,
+			);
+			path = "react-navigation";
+			sourceTree = "<group>";
+		};
+		9C0E71CB205192DC0004863D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CC205192DC0004863D /* views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9C0E71CC205192DC0004863D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CD205192DC0004863D /* assets */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9C0E71CD205192DC0004863D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CE205192DC0004863D /* back-icon@3x.png */,
+				9C0E71CF205192DC0004863D /* back-icon@2x.png */,
+				9C0E71D0205192DC0004863D /* back-icon.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 		9CFE8FC3204A85DC004E5AA7 /* fonts */ = {
@@ -168,83 +244,6 @@
 				9CFE8FC4204A85EE004E5AA7 /* iconfont.ttf */,
 			);
 			path = fonts;
-			sourceTree = "<group>";
-		};
-		9CFE8FDB204B005A004E5AA7 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FDC204B005A004E5AA7 /* node_modules */,
-			);
-			name = assets;
-			path = ../../../bundle/ios/assets;
-			sourceTree = "<group>";
-		};
-		9CFE8FDC204B005A004E5AA7 /* node_modules */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FDD204B005A004E5AA7 /* react-native-router-flux */,
-			);
-			path = node_modules;
-			sourceTree = "<group>";
-		};
-		9CFE8FDD204B005A004E5AA7 /* react-native-router-flux */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FDE204B005A004E5AA7 /* images */,
-				9CFE8FE1204B005A004E5AA7 /* node_modules */,
-			);
-			path = "react-native-router-flux";
-			sourceTree = "<group>";
-		};
-		9CFE8FDE204B005A004E5AA7 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FDF204B005A004E5AA7 /* menu_burger.png */,
-				9CFE8FE0204B005A004E5AA7 /* back_chevron.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		9CFE8FE1204B005A004E5AA7 /* node_modules */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FE2204B005A004E5AA7 /* react-navigation */,
-			);
-			path = node_modules;
-			sourceTree = "<group>";
-		};
-		9CFE8FE2204B005A004E5AA7 /* react-navigation */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FE3204B005A004E5AA7 /* src */,
-			);
-			path = "react-navigation";
-			sourceTree = "<group>";
-		};
-		9CFE8FE3204B005A004E5AA7 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FE4204B005A004E5AA7 /* views */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		9CFE8FE4204B005A004E5AA7 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FE5204B005A004E5AA7 /* assets */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		9CFE8FE5204B005A004E5AA7 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				9CFE8FE6204B005A004E5AA7 /* back-icon@3x.png */,
-				9CFE8FE7204B005A004E5AA7 /* back-icon@2x.png */,
-				9CFE8FE8204B005A004E5AA7 /* back-icon.png */,
-			);
-			path = assets;
 			sourceTree = "<group>";
 		};
 		B38E1280F2641264245788B8 /* Pods */ = {
@@ -330,22 +329,22 @@
 				9C019479203EB0AE00BBE03A /* Assets.xcassets in Resources */,
 				9C019477203EB0AE00BBE03A /* Main.storyboard in Resources */,
 				F0FEADF295404127A58661B2 /* Entypo.ttf in Resources */,
-				9CFE8FEB204B005A004E5AA7 /* back_chevron.png in Resources */,
+				9C0E71D3205192DC0004863D /* back_chevron.png in Resources */,
 				59EDDD6B0F614306ACEDE193 /* EvilIcons.ttf in Resources */,
-				9CFE8FED204B005A004E5AA7 /* back-icon@2x.png in Resources */,
+				9C0E71D5205192DC0004863D /* back-icon@2x.png in Resources */,
 				DB178B8E1B0D4513A1AA3B5D /* FontAwesome.ttf in Resources */,
 				9CFE8FC5204A85EE004E5AA7 /* iconfont.ttf in Resources */,
 				4EB264B2DE944F658E38C8A4 /* Foundation.ttf in Resources */,
 				ADE76C6AA5104AD89CCD700F /* Ionicons.ttf in Resources */,
 				D7A0540D346C46A1A3C60ABD /* MaterialCommunityIcons.ttf in Resources */,
-				9CFE8FEC204B005A004E5AA7 /* back-icon@3x.png in Resources */,
+				9C0E71D4205192DC0004863D /* back-icon@3x.png in Resources */,
 				E1C22293398A41C993326D34 /* MaterialIcons.ttf in Resources */,
 				48B59C45538F4B13B3BB0CAF /* Octicons.ttf in Resources */,
-				9CFE8FE9204B005A004E5AA7 /* main.jsbundle in Resources */,
-				9CFE8FEA204B005A004E5AA7 /* menu_burger.png in Resources */,
+				9C0E71D1205192DC0004863D /* main.jsbundle in Resources */,
+				9C0E71D2205192DC0004863D /* menu_burger.png in Resources */,
 				D10A9293F7CD48CEBFAA1E3D /* SimpleLineIcons.ttf in Resources */,
 				AE2F8697B1AA480EBF43E1EE /* Zocial.ttf in Resources */,
-				9CFE8FEE204B005A004E5AA7 /* back-icon.png in Resources */,
+				9C0E71D6205192DC0004863D /* back-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
