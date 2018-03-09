@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B59C45538F4B13B3BB0CAF /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C89F986C6CF6402B8FBF34EC /* Octicons.ttf */; };
+		4EB264B2DE944F658E38C8A4 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC86472355C64A45BF093CBF /* Foundation.ttf */; };
+		59EDDD6B0F614306ACEDE193 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04683BA785554FE08EB49806 /* EvilIcons.ttf */; };
+		5BD35C6874E790DAEA1D6F2B /* Pods_iOSRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5608F09A505FBA77715A76 /* Pods_iOSRN.framework */; };
+		9C019471203EB0AE00BBE03A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019470203EB0AE00BBE03A /* AppDelegate.m */; };
+		9C019474203EB0AE00BBE03A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019473203EB0AE00BBE03A /* ViewController.m */; };
+		9C019477203EB0AE00BBE03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C019475203EB0AE00BBE03A /* Main.storyboard */; };
+		9C019479203EB0AE00BBE03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C019478203EB0AE00BBE03A /* Assets.xcassets */; };
+		9C01947C203EB0AE00BBE03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C01947A203EB0AE00BBE03A /* LaunchScreen.storyboard */; };
+		9C01947F203EB0AE00BBE03A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01947E203EB0AE00BBE03A /* main.m */; };
+		9C0E71D1205192DC0004863D /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71C2205192DC0004863D /* main.jsbundle */; };
+		9C0E71D2205192DC0004863D /* menu_burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71C7205192DC0004863D /* menu_burger.png */; };
+		9C0E71D3205192DC0004863D /* back_chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71C8205192DC0004863D /* back_chevron.png */; };
+		9C0E71D4205192DC0004863D /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71CE205192DC0004863D /* back-icon@3x.png */; };
+		9C0E71D5205192DC0004863D /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71CF205192DC0004863D /* back-icon@2x.png */; };
+		9C0E71D6205192DC0004863D /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E71D0205192DC0004863D /* back-icon.png */; };
+		9C99FA43203FDD0B00828FDD /* RNOrderModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FA42203FDD0B00828FDD /* RNOrderModuleVC.m */; };
+		9C99FA49203FECC300828FDD /* RNMeModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FA48203FECC300828FDD /* RNMeModuleVC.m */; };
+		9C99FA4C203FECD600828FDD /* RNShopModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FA4B203FECD600828FDD /* RNShopModuleVC.m */; };
+		9CFE8FC5204A85EE004E5AA7 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFE8FC4204A85EE004E5AA7 /* iconfont.ttf */; };
+		9CFE8FC8204AA9C8004E5AA7 /* RCTShopModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE8FC7204AA9C8004E5AA7 /* RCTShopModules.m */; };
+		ADE76C6AA5104AD89CCD700F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BCF276B44674BC19690D08B /* Ionicons.ttf */; };
+		AE2F8697B1AA480EBF43E1EE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA2485AA3DD432185637BA8 /* Zocial.ttf */; };
+		D10A9293F7CD48CEBFAA1E3D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA4126BC4644752B318CC59 /* SimpleLineIcons.ttf */; };
+		D7A0540D346C46A1A3C60ABD /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9248B88069AA47CCBD1C06FB /* MaterialCommunityIcons.ttf */; };
+		DB178B8E1B0D4513A1AA3B5D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B324227E26264771B8EDC65C /* FontAwesome.ttf */; };
+		E1C22293398A41C993326D34 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2F70880366347F7AD594974 /* MaterialIcons.ttf */; };
+		F0FEADF295404127A58661B2 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 907CCA246D7B4F5C9C52DD84 /* Entypo.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04683BA785554FE08EB49806 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		2BCF276B44674BC19690D08B /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		7DA2485AA3DD432185637BA8 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		907CCA246D7B4F5C9C52DD84 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		9248B88069AA47CCBD1C06FB /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		9C01946C203EB0AE00BBE03A /* iOSRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C01946F203EB0AE00BBE03A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C019470203EB0AE00BBE03A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C019472203EB0AE00BBE03A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C019473203EB0AE00BBE03A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C019476203EB0AE00BBE03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C019478203EB0AE00BBE03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C01947B203EB0AE00BBE03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C01947D203EB0AE00BBE03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C01947E203EB0AE00BBE03A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C0E71C2205192DC0004863D /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		9C0E71C7205192DC0004863D /* menu_burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_burger.png; sourceTree = "<group>"; };
+		9C0E71C8205192DC0004863D /* back_chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_chevron.png; sourceTree = "<group>"; };
+		9C0E71CE205192DC0004863D /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
+		9C0E71CF205192DC0004863D /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
+		9C0E71D0205192DC0004863D /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
+		9C99FA41203FDD0B00828FDD /* RNOrderModuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNOrderModuleVC.h; sourceTree = "<group>"; };
+		9C99FA42203FDD0B00828FDD /* RNOrderModuleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNOrderModuleVC.m; sourceTree = "<group>"; };
+		9C99FA47203FECC300828FDD /* RNMeModuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMeModuleVC.h; sourceTree = "<group>"; };
+		9C99FA48203FECC300828FDD /* RNMeModuleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMeModuleVC.m; sourceTree = "<group>"; };
+		9C99FA4A203FECD600828FDD /* RNShopModuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNShopModuleVC.h; sourceTree = "<group>"; };
+		9C99FA4B203FECD600828FDD /* RNShopModuleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNShopModuleVC.m; sourceTree = "<group>"; };
+		9CFA861B7DEF7D5D61E36F56 /* Pods-iOSRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN.release.xcconfig"; sourceTree = "<group>"; };
+		9CFE8FC4204A85EE004E5AA7 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		9CFE8FC6204AA9C8004E5AA7 /* RCTShopModules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTShopModules.h; sourceTree = "<group>"; };
+		9CFE8FC7204AA9C8004E5AA7 /* RCTShopModules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTShopModules.m; sourceTree = "<group>"; };
+		A52EEAE77B0ECFD89E577E83 /* Pods-iOSRN.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN.staging.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN.staging.xcconfig"; sourceTree = "<group>"; };
+		AC86472355C64A45BF093CBF /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		B2F70880366347F7AD594974 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		B324227E26264771B8EDC65C /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C89F986C6CF6402B8FBF34EC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		CBA4126BC4644752B318CC59 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D0A6E583A5A9864A1E09FFB5 /* Pods-iOSRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5608F09A505FBA77715A76 /* Pods_iOSRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C019469203EB0AE00BBE03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD35C6874E790DAEA1D6F2B /* Pods_iOSRN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079B5008938C47ECAA249082 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				907CCA246D7B4F5C9C52DD84 /* Entypo.ttf */,
+				04683BA785554FE08EB49806 /* EvilIcons.ttf */,
+				B324227E26264771B8EDC65C /* FontAwesome.ttf */,
+				AC86472355C64A45BF093CBF /* Foundation.ttf */,
+				2BCF276B44674BC19690D08B /* Ionicons.ttf */,
+				9248B88069AA47CCBD1C06FB /* MaterialCommunityIcons.ttf */,
+				B2F70880366347F7AD594974 /* MaterialIcons.ttf */,
+				C89F986C6CF6402B8FBF34EC /* Octicons.ttf */,
+				CBA4126BC4644752B318CC59 /* SimpleLineIcons.ttf */,
+				7DA2485AA3DD432185637BA8 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C019463203EB0AE00BBE03A = {
+			isa = PBXGroup;
+			children = (
+				9C01946E203EB0AE00BBE03A /* iOSRN */,
+				9C01946D203EB0AE00BBE03A /* Products */,
+				B38E1280F2641264245788B8 /* Pods */,
+				BC44C9AFFB819B40EEE0D41F /* Frameworks */,
+				079B5008938C47ECAA249082 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		9C01946D203EB0AE00BBE03A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C01946C203EB0AE00BBE03A /* iOSRN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C01946E203EB0AE00BBE03A /* iOSRN */ = {
+			isa = PBXGroup;
+			children = (
+				9CFE8FC3204A85DC004E5AA7 /* fonts */,
+				9C0288B7204509D6009D2434 /* jsbundle */,
+				9C01946F203EB0AE00BBE03A /* AppDelegate.h */,
+				9C019470203EB0AE00BBE03A /* AppDelegate.m */,
+				9C019472203EB0AE00BBE03A /* ViewController.h */,
+				9C019473203EB0AE00BBE03A /* ViewController.m */,
+				9C99FA47203FECC300828FDD /* RNMeModuleVC.h */,
+				9C99FA48203FECC300828FDD /* RNMeModuleVC.m */,
+				9C99FA41203FDD0B00828FDD /* RNOrderModuleVC.h */,
+				9C99FA42203FDD0B00828FDD /* RNOrderModuleVC.m */,
+				9C99FA4A203FECD600828FDD /* RNShopModuleVC.h */,
+				9C99FA4B203FECD600828FDD /* RNShopModuleVC.m */,
+				9CFE8FC6204AA9C8004E5AA7 /* RCTShopModules.h */,
+				9CFE8FC7204AA9C8004E5AA7 /* RCTShopModules.m */,
+				9C019475203EB0AE00BBE03A /* Main.storyboard */,
+				9C019478203EB0AE00BBE03A /* Assets.xcassets */,
+				9C01947A203EB0AE00BBE03A /* LaunchScreen.storyboard */,
+				9C01947D203EB0AE00BBE03A /* Info.plist */,
+				9C01947E203EB0AE00BBE03A /* main.m */,
+			);
+			path = iOSRN;
+			sourceTree = "<group>";
+		};
+		9C0288B7204509D6009D2434 /* jsbundle */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C3205192DC0004863D /* assets */,
+				9C0E71C2205192DC0004863D /* main.jsbundle */,
+			);
+			path = jsbundle;
+			sourceTree = "<group>";
+		};
+		9C0E71C3205192DC0004863D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C4205192DC0004863D /* node_modules */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9C0E71C4205192DC0004863D /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C5205192DC0004863D /* react-native-router-flux */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		9C0E71C5205192DC0004863D /* react-native-router-flux */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C6205192DC0004863D /* images */,
+				9C0E71C9205192DC0004863D /* node_modules */,
+			);
+			path = "react-native-router-flux";
+			sourceTree = "<group>";
+		};
+		9C0E71C6205192DC0004863D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71C7205192DC0004863D /* menu_burger.png */,
+				9C0E71C8205192DC0004863D /* back_chevron.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9C0E71C9205192DC0004863D /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CA205192DC0004863D /* react-navigation */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		9C0E71CA205192DC0004863D /* react-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CB205192DC0004863D /* src */,
+			);
+			path = "react-navigation";
+			sourceTree = "<group>";
+		};
+		9C0E71CB205192DC0004863D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CC205192DC0004863D /* views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9C0E71CC205192DC0004863D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CD205192DC0004863D /* assets */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9C0E71CD205192DC0004863D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C0E71CE205192DC0004863D /* back-icon@3x.png */,
+				9C0E71CF205192DC0004863D /* back-icon@2x.png */,
+				9C0E71D0205192DC0004863D /* back-icon.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9CFE8FC3204A85DC004E5AA7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9CFE8FC4204A85EE004E5AA7 /* iconfont.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		B38E1280F2641264245788B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E583A5A9864A1E09FFB5 /* Pods-iOSRN.debug.xcconfig */,
+				9CFA861B7DEF7D5D61E36F56 /* Pods-iOSRN.release.xcconfig */,
+				A52EEAE77B0ECFD89E577E83 /* Pods-iOSRN.staging.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC44C9AFFB819B40EEE0D41F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5608F09A505FBA77715A76 /* Pods_iOSRN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C01946B203EB0AE00BBE03A /* iOSRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C019482203EB0AE00BBE03A /* Build configuration list for PBXNativeTarget "iOSRN" */;
+			buildPhases = (
+				88443BE94D3AAA5DB4F6284F /* [CP] Check Pods Manifest.lock */,
+				9C019468203EB0AE00BBE03A /* Sources */,
+				9C019469203EB0AE00BBE03A /* Frameworks */,
+				9C01946A203EB0AE00BBE03A /* Resources */,
+				7777B975E2737D9E01FEAF55 /* [CP] Embed Pods Frameworks */,
+				95D53774C1328AF2B7ECC898 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSRN;
+			productName = iOSRN;
+			productReference = 9C01946C203EB0AE00BBE03A /* iOSRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C019464203EB0AE00BBE03A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 920;
+				ORGANIZATIONNAME = "刘光强";
+				TargetAttributes = {
+					9C01946B203EB0AE00BBE03A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9C019467203EB0AE00BBE03A /* Build configuration list for PBXProject "iOSRN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C019463203EB0AE00BBE03A;
+			productRefGroup = 9C01946D203EB0AE00BBE03A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C01946B203EB0AE00BBE03A /* iOSRN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C01946A203EB0AE00BBE03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C01947C203EB0AE00BBE03A /* LaunchScreen.storyboard in Resources */,
+				9C019479203EB0AE00BBE03A /* Assets.xcassets in Resources */,
+				9C019477203EB0AE00BBE03A /* Main.storyboard in Resources */,
+				F0FEADF295404127A58661B2 /* Entypo.ttf in Resources */,
+				9C0E71D3205192DC0004863D /* back_chevron.png in Resources */,
+				59EDDD6B0F614306ACEDE193 /* EvilIcons.ttf in Resources */,
+				9C0E71D5205192DC0004863D /* back-icon@2x.png in Resources */,
+				DB178B8E1B0D4513A1AA3B5D /* FontAwesome.ttf in Resources */,
+				9CFE8FC5204A85EE004E5AA7 /* iconfont.ttf in Resources */,
+				4EB264B2DE944F658E38C8A4 /* Foundation.ttf in Resources */,
+				ADE76C6AA5104AD89CCD700F /* Ionicons.ttf in Resources */,
+				D7A0540D346C46A1A3C60ABD /* MaterialCommunityIcons.ttf in Resources */,
+				9C0E71D4205192DC0004863D /* back-icon@3x.png in Resources */,
+				E1C22293398A41C993326D34 /* MaterialIcons.ttf in Resources */,
+				48B59C45538F4B13B3BB0CAF /* Octicons.ttf in Resources */,
+				9C0E71D1205192DC0004863D /* main.jsbundle in Resources */,
+				9C0E71D2205192DC0004863D /* menu_burger.png in Resources */,
+				D10A9293F7CD48CEBFAA1E3D /* SimpleLineIcons.ttf in Resources */,
+				AE2F8697B1AA480EBF43E1EE /* Zocial.ttf in Resources */,
+				9C0E71D6205192DC0004863D /* back-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7777B975E2737D9E01FEAF55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CodePush/CodePush.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodePush.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88443BE94D3AAA5DB4F6284F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSRN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D53774C1328AF2B7ECC898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSRN/Pods-iOSRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C019468203EB0AE00BBE03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFE8FC8204AA9C8004E5AA7 /* RCTShopModules.m in Sources */,
+				9C019474203EB0AE00BBE03A /* ViewController.m in Sources */,
+				9C01947F203EB0AE00BBE03A /* main.m in Sources */,
+				9C99FA43203FDD0B00828FDD /* RNOrderModuleVC.m in Sources */,
+				9C99FA4C203FECD600828FDD /* RNShopModuleVC.m in Sources */,
+				9C99FA49203FECC300828FDD /* RNMeModuleVC.m in Sources */,
+				9C019471203EB0AE00BBE03A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C019475203EB0AE00BBE03A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C019476203EB0AE00BBE03A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C01947A203EB0AE00BBE03A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C01947B203EB0AE00BBE03A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C019480203EB0AE00BBE03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C019481203EB0AE00BBE03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C019483203EB0AE00BBE03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A6E583A5A9864A1E09FFB5 /* Pods-iOSRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODEPUSH_KEY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/Libraries/**";
+				INFOPLIST_FILE = iOSRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.push;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a7a8c2cb-8707-4d13-b680-744217a694d0";
+				PROVISIONING_PROFILE_SPECIFIER = LSPushDev;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		9C019484203EB0AE00BBE03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFA861B7DEF7D5D61E36F56 /* Pods-iOSRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODEPUSH_KEY = "FWm8ePT--4KGGFoc5mOBA4hyYR8e3ac740b8-b071-474f-afbf-369c6e4642ab";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/Libraries/**";
+				INFOPLIST_FILE = iOSRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.push;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aa7b499a-50e4-47da-9a05-e5bc2103f6b7";
+				PROVISIONING_PROFILE_SPECIFIER = LSPushDis;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		9CFE8FCB204AEBDF004E5AA7 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		9CFE8FCC204AEBDF004E5AA7 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52EEAE77B0ECFD89E577E83 /* Pods-iOSRN.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODEPUSH_KEY = "wq5P7R0cjbIvJP2tvWMZ7CA_xaIJ3ac740b8-b071-474f-afbf-369c6e4642ab";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
+				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/Libraries/**";
+				INFOPLIST_FILE = iOSRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.push;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aa7b499a-50e4-47da-9a05-e5bc2103f6b7";
+				PROVISIONING_PROFILE_SPECIFIER = LSPushDis;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Staging;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C019467203EB0AE00BBE03A /* Build configuration list for PBXProject "iOSRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C019480203EB0AE00BBE03A /* Debug */,
+				9C019481203EB0AE00BBE03A /* Release */,
+				9CFE8FCB204AEBDF004E5AA7 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C019482203EB0AE00BBE03A /* Build configuration list for PBXNativeTarget "iOSRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C019483203EB0AE00BBE03A /* Debug */,
+				9C019484203EB0AE00BBE03A /* Release */,
+				9CFE8FCC204AEBDF004E5AA7 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C019464203EB0AE00BBE03A /* Project object */;
+}
