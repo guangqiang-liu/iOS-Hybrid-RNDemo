@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # iOS原生混合RN开发最佳实践
 > 做过原生iOS开发或者Android开发的同学们肯定也都了解Hybrid，有一些Hybrid的开发经验，目前我们企业开发中运用最广泛的Hybrid App技术就是原生与H5 hybrid，在早期的时候，可能部分同学也接触过PhoneGap等hybrid技术，今天我们就简单来聊下一种比较新的Hybrid技术方案，原生App与ReactNativie Hybrid，如果有同学们对React Native技术不熟悉的同学，可以查看作者简书中对React Native基础的讲解：[React Native入门到实战讲解](https://www.jianshu.com/u/023338566ca5)
 
